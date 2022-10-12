@@ -1,28 +1,60 @@
 .portfolio__content {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 130px;
 }
 
 .portfolio__photos>img:not(:last-child) {
   margin-right: 44px;
 }
 
-.portfolio__text_title {
-  font-weight: 300;
-  font-size: 48px;
-  line-height: 94%;
-  text-align: right;
-  letter-spacing: 0.002em;
-  text-decoration-line: underline;
-  text-transform: uppercase;
-  margin-bottom: 36px;
-}
-
-.portfolio__text_subtitle {
+.portfolio__text_wrapper {
   font-weight: 300;
   font-size: 24px;
   line-height: 29px;
   text-align: right;
   letter-spacing: 0.002em;
   text-transform: uppercase;
+}
+
+.portfolio__text {
+  max-width: 555px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.002em;
+  text-transform: uppercase;
+  margin-bottom: 45px;
+  white-space: nowrap;
+}
+
+
+.span__text:hover {
+  max-width: 700px;
+  width: 100%;
+  transition: 1s;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.002em;
+  border-bottom: solid white 1px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  margin-bottom: 36px;
+}
+
+.span__text:not(hover) {
+  transition: 1s;
+  max-width: 555px;
+  width: 100%;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  letter-spacing: 0.002em;
+  text-transform: uppercase;
+  white-space: nowrap;
 }

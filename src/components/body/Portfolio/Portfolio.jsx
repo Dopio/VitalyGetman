@@ -29,12 +29,21 @@ export const Portfolio = () => {
               alt='girl_3'
             />
           </div>
-          <div className={classes.portfolio__text}>
-            <div className={classes.portfolio__text_title}>
-              fasion
+          <div className={classes.portfolio__text_wrapper}>
+            <div className={classes.portfolio__text}>
+              <span className={classes.span__text}>
+                fasion
+              </span>
             </div>
-            <div className={classes.portfolio__text_subtitle}>
-              reportage<br /><br />portrait
+            <div className={classes.portfolio__text}>
+              <span className={classes.span__text}>
+                reportage
+              </span>
+            </div>
+            <div className={classes.portfolio__text}>
+              <span className={classes.span__text}>
+                portrait
+              </span>
             </div>
           </div>
         </div>
