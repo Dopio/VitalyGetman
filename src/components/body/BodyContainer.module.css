@@ -1,0 +1,5 @@
+.body__container{
+  display: flex;
+  flex-direction: column;
+  margin: 0px 212px 70px 212px;
+}
