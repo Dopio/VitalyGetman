@@ -1,0 +1,25 @@
+.header__wrapper {
+  display: flex;
+}
+
+.header__text {
+  display: flex;
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  padding: 28px 40px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: 0.23em;
+  white-space: nowrap;
+}
+
+.header__line {
+  display: flex;
+  margin-top: 50px;
+  width: 463.5px;
+  height: 0px;
+  border: 3px solid #FFFFFF;
+}
